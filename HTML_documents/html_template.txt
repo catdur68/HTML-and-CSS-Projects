@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>WRITE TITLE HERE.</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+	THIS IS WHERE ALL THE CONTENT OF THE WEBPAGE GOES
+	</body>
+</html>

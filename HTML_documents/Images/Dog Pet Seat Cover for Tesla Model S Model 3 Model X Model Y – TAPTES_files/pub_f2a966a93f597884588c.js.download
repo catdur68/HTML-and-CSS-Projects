@@ -1,0 +1,8 @@
+// Last edit: Tue, 14 Jul 20 20:36:11 -0400
+_rfsn_tracker.load_settings({
+	version : 2.0,
+	base_url : 'https://taptes.refersion.com/',
+	xdomains: [],
+	verbose: false,
+	is_loaded: true
+})
