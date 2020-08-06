@@ -1,0 +1,21 @@
+/*Reposting to GitHub*/
+
+/*creating a class for styling all paragraph*/
+
+
+.Class_P {
+	color: fuchsia;
+	background: aqua;
+	font-style: bold;
+	font-size: large;
+	text-align: center;
+
+}
+
+/*using text shadowing for the text of the headline*/
+h3 {
+	color: aqua;
+	text-align: center;
+	text-shadow: 2px 2px;
+}
+

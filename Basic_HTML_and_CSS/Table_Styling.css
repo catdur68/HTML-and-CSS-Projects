@@ -1,0 +1,32 @@
+div {
+	width: 50%;
+}
+
+
+/* make borders for the table*/
+table {
+	border: 1px solid silver;
+	
+	
+}
+
+
+
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+/* make headers backgroung black with light yellow text*/
+tr, th {
+	background: black;
+	color: cornsilk;
+	text-align: right;
+	
+}
+
+/* make cells containing the data background darkgreen and white text*/
+tr, td {
+	background: darkgreen;
+	color: white;
+	
+}
