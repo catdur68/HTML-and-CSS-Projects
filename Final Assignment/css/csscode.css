@@ -1,0 +1,216 @@
+/*--------------------------
+NAVIGATION BAR ELEMENTS
+-------------------------*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+li a:hover {
+    background-color: rgb(76, 2, 247);
+}
+ul {
+    display: block;
+    padding: 0;
+    background-color: rgb(176, 243, 236);
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: orange;
+    border: 1px solid black;
+}
+.navbar a:hover {
+    color: rgb(34, 34, 48);
+    background-color: rgb(238, 116, 201);
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: black;
+}
+/*------------
+HEADLINES
+------------*/
+
+h1 {
+    padding: 2.5rem;
+    color: rgb(250, 4, 4);
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 0em;
+    
+}
+h2 {
+    padding: .25rem;
+    color: rgb(51, 32, 32);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;/*text is aligned with its element*/
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-style: italic;
+}
+
+h3 {
+    padding: 0mm;
+    text-align: left;
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 0em;
+}
+/*---------------------------------
+PARAGRAPH
+---------------------------------*/
+p {
+    text-align: center;
+    position: relative;
+}
+.p-hover:hover {
+    color: blue;
+    font-size: 32px;
+    background-color: rgb(216, 60, 164);
+    width: 500px;
+    position: relative;
+ 
+}
+/*------------------------------------------
+CONTAINER 1 FOR PHOTO 1 CENTERED AND BLURED
+-------------------------------------------*/
+.photo-container1 {
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+    height: 169;
+}
+
+.photo-container1 img {
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo1 {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 1em;
+    overflow: hidden;
+    /*in case the text goes over the container, hide text*/
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #070707;
+    background-color: rgb(73, 42, 42);
+    box-shadow: 2px 2px 10px rgba(0, 0 0, 0,7);
+    filter: blur(3px) 
+}
+/*---------
+TABLE
+----------*/
+
+/* make borders for the table*/
+table {
+    border: 1px solid rgb(19, 31, 17);
+}
+
+tr, th {
+	background: rgba(246, 250, 19, 0.075);
+	color: rgb(31, 25, 1);
+    text-align: right;
+    border-bottom: 2px rgb(19, 31, 17);
+    width: min-content;
+    padding-right: .50em;
+}
+
+tr, td {
+    padding-right: 1em;
+    background-color: #ffffff;
+}
+/*---------------------------------
+CONTAINER 2 FOR PHOTO 2 AND PHOTO 3
+----------------------------------*/
+.photo-container2 img {
+    max-width: 100%;
+    width: 500px;
+    height: 300px;
+}
+.photo-container2 {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    margin: 15px;
+    padding: .5em;
+    width: 500px;
+    height: 300;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+/*-----------
+PHOTO 2 (WASHINGTON) & 3 (MONTANA)
+------------*/
+.photo2 {
+    position: relative;
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    /*in case the text goes over the container, hide text*/
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #070707;
+    background-color: rgb(73, 42, 42);
+}
+.photo3 {
+    position: relative;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.photo3:hover {
+    opacity: .3;
+}
+/*------------------
+FOOTER
+-----------------*/
+}
+.footer {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+/*----------------
+COLUMNS
+-----------------*/
+.row {
+    display: inline;
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    size: 100px;
+    
+}
+
+.column {
+    display: inline;
+    size: 100px;
+    width: 50%;
+    margin-top: .5rem;
+    padding: 0.5rem;
+    background-color: burlywood;
+    color: blue;
+}
+
